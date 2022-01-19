@@ -1,0 +1,24 @@
+.site-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  font-family: 'PT Sans';
+}
+
+.site-list__item {
+  width: 239px;
+  padding: 15px 0 15px 0;
+    & a {
+    display: block;
+    line-height: 26px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  & .site-list__item__current {
+    color: @bg-color-current;
+  }
+}
